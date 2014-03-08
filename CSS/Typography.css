@@ -1,0 +1,106 @@
+@font-face {
+
+    font-family: 'love_lettertwregular';
+    src: url('../LoveLetterFont/lovelt__-webfont.eot');
+    src: url('../LoveLetterFont/lovelt__-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../LoveLetterFont/lovelt__-webfont.woff') format('woff'),
+         url('../LoveLetterFont/lovelt__-webfont.ttf') format('truetype'),
+         url('../LoveLetterFont/lovelt__-webfont.svg#love_lettertwregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'boston_trafficregular';
+    src: url('../BostonFont/boston-webfont.eot');
+    src: url('../BostonFont/boston-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../BostonFont/boston-webfont.woff') format('woff'),
+         url('../BostonFont/boston-webfont.ttf') format('truetype'),
+         url('../BostonFont/boston-webfont.svg#boston_trafficregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+
+    color: #FFFFFF;
+    font-family: 'love_lettertwregular';
+    font-size: 100%;
+}
+
+p {
+
+    line-height: 1.3em;
+
+}
+
+blockquote {
+
+    font-size: 1.2em;
+    line-height: 1.4em;    
+
+}
+a:link {
+
+    color: #FFFFFF;
+
+}
+a:visited {
+
+    color: #828281;
+}
+a:hover {
+
+    color: #A9A9A9;
+    text-decoration: underline;
+}
+a:active {
+    text-decoration: bold;
+}
+
+.home {
+    line-height: 1.4em;
+    font-size: 1.4em;
+}
+
+.category {
+
+    line-height: 1em;
+    text-align: center;
+}
+
+
+h1 {
+
+    font-family: boston_trafficregular;
+    font-size: 4.3em;
+}
+
+
+h2 {
+
+    font-family: boston_trafficregular;
+    font-size: 1.8em;
+}
+
+h3 {
+
+color: #FFF;
+font-family: boston_trafficregular;
+font-size: 1.6em;
+line-height: 1.3em;
+}
+
+.title {
+    text-align: center;
+    color: #000;
+}
+
+
+
+.utilities {
+
+    font-family: boston_trafficregular;
+
+}

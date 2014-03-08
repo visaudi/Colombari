@@ -1,0 +1,30 @@
+.home {
+    display: none;
+}
+
+.content {
+
+    float: left;
+    margin: 0px auto 0px;
+    padding: 3%;
+    width: 40%;
+    color: #000;
+}
+
+div.content>h3 {
+
+    color: #000;
+
+}
+
+.title {
+    float: left;
+    margin: 0px auto 0px;
+    width: 100.0%;
+    padding-bottom: 3%;
+    font-size: 2em;
+    z-index: 11;
+    color: #FFF;
+
+
+}
