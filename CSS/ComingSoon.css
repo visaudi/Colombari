@@ -1,0 +1,33 @@
+h1 {
+
+    display: block;
+
+}
+
+.productions {
+
+    opacity: .7;
+    padding: .5em;
+    text-align: center;
+
+}
+@media (min-width: 40em) {
+    .productions {
+        clear: left;
+        width: 25%;
+    }
+
+}
+
+.shifted li {
+
+    text-indent: -3em;
+}
+
+.productions img {
+
+    display: inline;
+    float: none;
+    width: 95%;
+
+}

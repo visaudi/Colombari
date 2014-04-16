@@ -1,0 +1,150 @@
+
+.content {
+    padding: .5em; 
+    background-color: #333;
+    margin-top: 12em;
+    opacity: .9;
+    text-align: center;
+}
+
+@media (min-width: 53em) {
+
+    .content {
+        float: left;
+        margin: 4% auto 0px ;
+        width: 26%;
+    }
+
+
+}
+
+div.tagline {
+
+    clear: right;
+    float: right;
+    margin: 10% 30% 0px 0px;
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+
+    z-index: -20;
+}
+
+@media (max-width: 53em) {
+
+    visibility: hidden;
+}
+
+@media (min-width: 53em) {
+
+    .tagline {
+        top: 60%;
+        left: 20%;
+        position: absolute;
+        z-index: -20;
+    }
+}
+
+@media (max-height: 53.9em) and (max-width: 90.37em) {
+
+
+        div.tagline {
+            left: 42%;
+            font-size: .55em;
+        }
+
+}
+
+
+
+@media (max-height: 53.9em) and (max-width: 80.37em) {
+
+
+        div.tagline {
+            left: 42%;
+            font-size: .45em;
+
+        }
+
+}
+
+
+@media (max-height: 53.9em) and (max-width: 70.37em) {
+
+
+        div.tagline {
+            left: 42%;
+            font-size: .35em;
+
+        }
+
+}
+
+@media (max-height: 53.9em) and (min-width: 90.37em) {
+
+
+        div.tagline {
+            left: 42%;
+            font-size: .65em;
+        }
+
+}
+
+@media (min-height: 53.9em) and (max-width: 70em) {
+
+    div.tagline {
+
+        font-size: .75em;
+
+    }
+}
+.tagline div {
+
+    color: #000;
+    display: inline;
+    text-shadow: none;
+    z-index: -20;
+
+}
+.Generating, .Wherever,  .Go {
+
+    position: relative;
+    left: -3000px;
+
+}
+
+.Spectacle, .We {
+    position: relative;
+    left: 3000px;
+
+}
+
+
+@media (min-width: 668px) {
+
+    .nav {
+
+        margin-top: 40px;
+
+    }
+
+    .read {
+        margin-top: 70%;
+    }
+}
+
+
+@media (min-aspect-ratio: 848/429) {
+    .nav {
+        margin-right: 9em;
+    }
+}
+
+@media (min-aspect-ratio: 1.7382/1) {
+
+    .nav {
+        margin-top: 5em;
+    }    
+
+}

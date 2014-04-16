@@ -1,8 +1,31 @@
+h1 {
+
+    display: block;
+}
+
 .content {
-
-    float: left;
-    margin: 20px, auto, 0px;
+    background-color: #333;
+    margin: 20px auto 0px;
+    opacity: .5;
     padding: 3%;
-    width: 70%;
+}
 
+@media (min-width: 53em) {
+
+    .content {
+
+        min-width: 25em;
+        opacity: .7;
+        width: 25%;
+    }
+
+}
+
+.tagline {
+
+    font-size: 4em;
+    position: fixed;
+    bottom: 0px;
+    right: 15px;
+    opacity: 0;
 }

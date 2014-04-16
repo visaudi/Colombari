@@ -1,0 +1,22 @@
+h1 {
+
+    display: block;
+
+}
+
+div.productions {
+
+   opacity: .95; 
+
+}
+
+
+.tagline {
+
+    font-size: 1em;
+    position: fixed;
+    bottom: 0px;
+    right: 15px;
+    opacity: 1;
+    z-index: -20;
+}

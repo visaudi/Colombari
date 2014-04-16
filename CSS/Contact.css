@@ -1,0 +1,29 @@
+h1 {
+    
+    margin-left: 40px;
+}
+
+.content {
+
+    background-color: #333;
+    margin-top: 17em;
+    opacity: .7;
+    padding: 1em; 
+    text-align: center;
+}
+
+@media (min-width: 40em ) {
+    .content {
+
+        float: left;
+        font-size: 1.4em;
+        margin: 15em 0px 0px 2.5em;
+        min-width: 20em;
+        width: 24%;
+    }
+@media (min-width: 40em ) and (max-width: 53em) {
+    .content {
+        margin-bottom: 8em;
+
+    }
+}

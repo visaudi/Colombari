@@ -1,0 +1,16 @@
+.productions {
+    clear: left;
+    margin: 30px auto 0px;
+    opacity: .7;
+    width: 25%;
+}
+
+.productions ul {
+    text-indent: -3em;
+}
+.productions li {
+
+    text-indent: -2.5em;
+
+}
+

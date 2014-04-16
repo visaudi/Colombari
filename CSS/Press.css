@@ -1,8 +1,49 @@
-.content {
+body {
 
-    float: left;
-    margin: 20px, auto, 0px;
-    width: 70%;
-    padding: 2%;
+    background-image: url("../Images/Confrontation.jpg");
+}
+
+h1 {
+
+display: block;
 
 }
+
+.tagline {
+
+    bottom: 0px;
+    display: block;
+    position: static;
+    right: 15px;
+    text-align: center !important;
+    z-index: -10;
+}
+
+.content {
+/* fix with rgba */
+
+    background-color: #333;
+    opacity: .4;
+
+}
+
+@media (min-width: 53em) {
+
+    .content {
+
+        float: left;
+        clear: left;
+        margin: 0px auto 0px;
+        width: 30%;
+        min-width: 16em;
+        opacity: .7;
+        padding: 1.5em;
+        margin: 140px auto 0px;
+
+    }
+
+    .tagline {
+        position: fixed;
+}
+}
+

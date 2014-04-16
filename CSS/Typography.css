@@ -22,22 +22,36 @@
 
 }
 
-body {
+html {
 
     color: #FFFFFF;
     font-family: 'love_lettertwregular';
     font-size: 100%;
 }
 
-p {
+@media (min-width: 40em) {
 
-    line-height: 1.3em;
+    html { font-size: 112%; }
+}
+
+@media (min-width: 64em) {
+
+    html { font-size: 120%; }
+
+}
+
+
+p {
+    font-size: .85em;
+    letter-spacing: .02em;
+    line-height: 1.4em;
+    text-indent: 1.5em;
 
 }
 
 blockquote {
 
-    font-size: 1.2em;
+    font-size: 1.01em;
     line-height: 1.4em;    
 
 }
@@ -48,7 +62,7 @@ a:link {
 }
 a:visited {
 
-    color: #828281;
+    color: #d9d9d9;
 }
 a:hover {
 
@@ -59,37 +73,53 @@ a:active {
     text-decoration: bold;
 }
 
-.home {
-    line-height: 1.4em;
-    font-size: 1.4em;
-}
+
 
 .category {
 
-    line-height: 1em;
     text-align: center;
 }
 
 
 h1 {
-
+    display: inline;
     font-family: boston_trafficregular;
-    font-size: 4.3em;
+    font-size: 4.1em;
+    letter-spacing: .05em;
 }
 
 
 h2 {
 
+    display: inline;
     font-family: boston_trafficregular;
-    font-size: 1.8em;
+    font-size: 1.4em;
+    letter-spacing: .03em;
 }
 
 h3 {
 
-color: #FFF;
-font-family: boston_trafficregular;
-font-size: 1.6em;
-line-height: 1.3em;
+    color: #FFF;
+    font-family: boston_trafficregular;
+    font-size: 1.1em;
+    line-height: 1.3em;
+    letter-spacing: .03em;
+}
+
+
+h4 {
+
+    color: #FFF;
+    font-family: boston_trafficregular;
+    font-size: 1.05em;
+    line-height: 1.2em;
+    letter-spacing: .03em;
+}
+
+h4:first-of-type {
+    margin-bottom: 40px;
+    font-weight: 900;
+    font-style: italic;
 }
 
 .title {
@@ -97,10 +127,120 @@ line-height: 1.3em;
     color: #000;
 }
 
+.de {
+
+    font-family: 'love_lettertwregular';
+    position: relative;
+    top: -.15em;
+}
+
+.subTitle h2 {
+
+    font-style: italic;
+}
+
+.content li {
+
+    font-size: .85em;
+    line-height: 1.5em;
+    list-style-type: none;
+    text-indent: -2.7em;
+
+}
+
+.nav h3 {
+
+    line-height: 1.3em;
+
+}
+
+.nav li {
+    list-style-type: none;
+    line-height: 2em;
+}
+
+.read ul {
+    height: 0em;
+    overflow: hidden;
+    -webkit-transition: height 1s ease;
+    -moz-transition: height 1s ease;
+    -o-transition: height 1s ease;
+    -ms-transition: height 1s ease;
+    transition: height 1s ease;
+}
+
+.read:link {
 
 
-.utilities {
+    text-decoration: underline;
 
-    font-family: boston_trafficregular;
+}
+
+.read li:hover > ul {
+    height: 7.5em;
+
+}
+
+.read {
+    position: relative;
+    top: 1em;
+}
+
+.read li li {
+
+    position: relative;
+    top: -0.45em;
+    left: -0.5em;
+}
+.navLink button {
+
+    font-family: 'boston_trafficregular';
+    font-size: 1.25em;
+}
+
+button a:link {
+
+    text-decoration: none;
+    color: #000;
+
+}
+
+button a:visited {
+
+    color: #000;
+
+}
+
+
+button a:hover {
+
+    color: #666;
+
+}
+
+button a:active {
+
+    color: #999;
+
+}
+
+.home li {
+
+    line-height: 1em;
+
+}
+.productions ul {
+    line-height: 1.5em;
+}
+.productions li {
+
+    font-size: 0.85em;
+    list-style-type: none;
+    line-height: 1.35em;
+
+}
+.read ul {
+
+    font-size: .85em;
 
 }
